@@ -5,3 +5,28 @@
     --secundary-color: #0a0a0a;
     --font:  "Oswald", sans-serif; 
     }
+    body {
+        background-color: var(--bg-color);
+        color: var(--primary-color);
+        font-family: var(--font);
+        height: 100vh;
+        margin: 0;
+    }
+    
+    header {
+        background-color: var(--primary-color);
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--primary-color);
+        color: var(--bg-color);
+        width: 100%;
+        height: 3rem;
+        margin-top: 2rem;
+    }
+    
